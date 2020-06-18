@@ -9,8 +9,12 @@ repository = "https://github.com/iamlucaswolf/style-transfer-pytorch"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+torch = "^1.5.0"
+torchvision = "^0.6.0"
+pillow = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
+ipython = "^7.15.0"
 
 [build-system]
 requires = ["poetry>=0.12"]
